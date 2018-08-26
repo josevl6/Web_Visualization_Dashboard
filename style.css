@@ -1,0 +1,132 @@
+/* style navbar */
+.navbar{
+    background: lightseagreen;
+    color: 	white;
+}
+
+#color-me{
+    color:white;
+}
+
+#logo{
+    margin-left: 70px;
+    /* height: 45px; */
+    /* margin-top: 0px; */
+    /* text-align: top; */
+    /* display: block; */
+    background-color: navy;
+    color: white;
+}
+
+#box1{
+    padding: 30px;
+    width: 90%;
+    height: 600px;
+    /* float: left; */
+    /* text-align: justify; */
+    /* margin-right: 70px;  */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F5F5F5; 
+    
+}
+
+#box1-1{
+    padding: 30px;
+    width: 60%;
+    height: 90%;
+    float: left;
+    text-align: justify;
+    /* margin-right: 70px;  */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    background-color: white; 
+    
+}
+
+#box1-2{
+    padding: 30px;
+    width: 35%;
+    height: 80%;
+    float: right;
+    text-align: justify;
+    /* margin-right: 70px;  */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    background-color: white; 
+    
+}
+
+#box2{
+    padding: 15px;
+    text-align: justify;
+    width: 30%;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    background-color: white;
+    height: 418px;
+}
+
+
+#vis_img{
+    width: 150px;
+    height: 150px;
+    /* overflow: auto; */
+    /* position: auto; */
+    /* margin-top: 40px; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#image_summ{
+    float: left;
+    width:50%;
+    height:50%;
+}
+
+
+
+#footer{
+    border-top: 5px solid gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: 	white;
+    background: navy;
+}
+
+#comparisonTable{
+    padding: 30px;
+    position: relative;
+    /* text-align: justify; */
+    width: 80%;
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+    /* height: 75%; */
+    /* margin:auto; */
+    margin-top: 30px;
+    /* margin-bottom: 25px; */
+    background-color: white;
+    /* float: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 550px; */
+}
+
+#comparisonImg{
+        /* position: relative; */
+        margin-left: 20px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        width: 310px;
+        height: 150px;
+        float: center;
+}

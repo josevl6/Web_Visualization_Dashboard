@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web Visualization Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+	<!--	creating Nav Bar-->
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+			
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" id="logo" href="../index.html">Latitude</a>
+		  </div>
+		  <!-- Info to the right of the nav bar-->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  	<ul class="nav navbar-nav navbar-right">
+					
+				<li class="dropdown">
+					<a class="dropdown-toggle" id= "color-me" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+					<!-- drowdown menu for plots option-->
+					<ul class="dropdown-menu">
+							<li><a href="MaxTemp.html">Max Temperature</a></li>
+							<li><a href="Humidity.html">Humidity</a></li>
+							<li><a href="Cloudiness.html">Cloudiness</a></li>
+							<li><a href="WindSpeed.html">Wind Speed</a></li>
+					</ul>
+				</li>
+	
+					<!-- Other buttons to the right of Nav Bar-->
+				<li><a href="Comparison.html" id= "color-me">Comparison</a></li>
+				<li><a href="Data.html" id= "color-me">Data</a></li>
+			</ul>
+		  </div>
+		</div>
+
+	</nav>
+<style>body{
+		background-color: #F5F5F5;
+	}
+</style>
+	<!-- Inserting the body and the content -->
+	<!-- Create a container, insert 1 row and 2 columns (sizes 8 and 4)	-->
+	<!-- <div class = "background"> -->
+	<main class="container">
+		<section class = "row">
+			<article class = "col-md-8" id="box1">
+				<header><h1>Humidity</h1></header>
+				<hr>
+					<!-- <section id="body_summ">
+						<section id="figure"> -->
+						<img class="center" src="../Resources/assets/images/Fig2.png" alt="City Latitude vs. Max Temperature chart.">
+						<!-- </section> -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. 
+							Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada 
+							egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit.
+					 		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare.</p> 
+		
+					<!-- </section> -->
+			</article>
+
+			<article class = "col-md-4" id="box2">
+					<header><h2>Visualizations</h2></header> 
+					<hr>
+						<div class= "col-md-6">
+							<a href="MaxTemp.html"><img id="vis_img" src="../Resources/assets/images/Fig1.png"></a>
+							<a href="Cloudiness.html"><img id = "vis_img" src="../Resources/assets/images/Fig3.png"></a>
+						</div>
+						<div class= "col-md-6">
+							<a href="Humidity.html"><img id="vis_img" src="../Resources/assets/images/Fig2.png"></a>	
+							<a href="WindSpeed.html"><img id = "vis_img" src="../Resources/assets/images/Fig4.png"></a>
+						</div>
+				</article>
+		</section>
+
+	</main>
+<!-- </div> -->
+	
+	<!-- Inserting a footer-->
+	<footer id ="footer">
+			<p>@ Copyright Data Science Bootcamp 2018</p>
+	</footer>
+
+		<!-- jQuery CDN to make the drowdown work-->
+		<script type = "text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<!-- Bootstrap CDN-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+
+</body>
+</html>
